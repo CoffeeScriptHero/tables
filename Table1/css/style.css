@@ -9,105 +9,101 @@ body {
   text-transform: uppercase;
 }
 .table {
-  /* width: 100%;
-    max-width: 1192px; */
   border: 23px solid #3a4965;
   border-collapse: collapse;
 }
 .pricing-plan-cell {
   text-align: center;
 }
-.pricing-plan-title{
-    margin: 51px 35px 36px 48px;    
+.pricing-plan-title {
+  margin: 51px 35px 36px 48px;
 }
-.thead-span{
-    font-size: 18px;
-    line-height: 28px;
-    font-weight: 700;
-    color: #484848;
-    text-transform: uppercase;
+.thead-span {
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 700;
+  color: #484848;
+  text-transform: uppercase;
 }
-.thead-text{
-    margin-top: 1px;
-    margin-bottom: 0;
-    font-size: 30px;
-    line-height: 28px;
-    font-weight: 700;
-    text-transform: uppercase;
-    color: #484848;
+.thead-text {
+  margin-top: 1px;
+  margin-bottom: 0;
+  font-size: 30px;
+  line-height: 28px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #484848;
 }
-.plan-name-cell-green{
-    font-size: 24px;    
-    line-height: 28px;
-    font-weight: 700;
-    color: #FFF;
-    text-align: center;
-    padding: 27px 60px 18px 62px;   
-    background-color: #89C331;
+.plan-name-cell-green {
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700;
+  color: #fff;
+  text-align: center;
+  padding: 27px 60px 18px 62px;
+  background-color: #89c331;
 }
-.plan-name-cell-red{
-    background-color: #F04A56;;
-    font-size: 24px;    
-    line-height: 28px;
-    font-weight: 700;
-    color: #FFF;
-    text-align: center;
-    padding: 24px 55px 21px 53px;   
-    text-transform: uppercase;
-    background-color: #F04A56;
+.plan-name-cell-red {
+  background-color: #f04a56;
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700;
+  color: #fff;
+  text-align: center;
+  padding: 24px 55px 21px 53px;
+  text-transform: uppercase;
+  background-color: #f04a56;
 }
-.plan-name-cell-aquamarine{
-    background-color: #20807C;  
-    font-size: 24px;    
-    line-height: 28px;
-    font-weight: 700;
-    color: #FFF;
-    text-align: center;
-    padding: 24px 69px 18px 67px;   
-    text-transform: uppercase;
-    background-color: #20807C;
+.plan-name-cell-aquamarine {
+  background-color: #20807c;
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700;
+  color: #fff;
+  text-align: center;
+  padding: 24px 69px 18px 67px;
+  text-transform: uppercase;
+  background-color: #20807c;
 }
-.price-cell{
-    position: relative; 
+.price-cell {
+  position: relative;
 }
-.price-cell:nth-child(1){
-    border-left: 1px solid #CDCDCD;
-    border-right: 1px solid #CDCDCD;
+.price-cell:nth-child(1) {
+  border-left: 1px solid #cdcdcd;
+  border-right: 1px solid #cdcdcd;
 }
-.price-cell:nth-child(3){
-    border-left: 1px solid #CDCDCD;
+.price-cell:nth-child(3) {
+  border-left: 1px solid #cdcdcd;
 }
-.price-rate{
-    display: ;
-    margin: 36px 133px 24px 47px;
-    font-size: 60px;
-    line-height: 28px;
-    font-weight: 700;
-    color: #484848;
+.price-rate {
+  margin: 36px 133px 24px 47px;
+  font-size: 60px;
+  line-height: 28px;
+  font-weight: 700;
+  color: #484848;
 }
-.price-trifle{
-    position: absolute;
-    /* top: 0; */
-    left: 146px;
-    top: 12px;
-    font-size: 24px;
-    line-height: 28px;
-    font-weight: 700;
-    color: #484848; 
-    vertical-align: text-top;
+.price-trifle {
+  position: absolute;
+  left: 146px;
+  top: 12px;
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700;
+  color: #484848;
+  vertical-align: text-top;
 }
-.price-plan-rate{
-    position: absolute;
-    left: 150px;
-    top: 35px;
-    font-size: 18px;
-    line-height: 28px;
-    color:#484848;
-    font-weight: 400;
+.price-plan-rate {
+  position: absolute;
+  left: 150px;
+  top: 35px;
+  font-size: 18px;
+  line-height: 28px;
+  color: #484848;
+  font-weight: 400;
 }
 .table-cell {
   text-align: center;
-  border-right: 1px solid #CDCDCD;
+  border-right: 1px solid #cdcdcd;
 }
 .table-icon-cell {
   padding: 30px 100px 30px 100px;
@@ -242,12 +238,10 @@ body {
 .table-cell-button-black {
   background-color: #dddddd;
 }
-.table-cell-button-green{
-  background-color: #EEEEEE;;
+.table-cell-button-green,
+.table-cell-button-aquamarine {
+  background-color: #eeeeee;
 }
-.table-cell-button-red{
-  background-color: #F4F4F4;
-}
-.table-cell-button-aquamarine{
-  background-color: #EEEEEE;
+.table-cell-button-red {
+  background-color: #f4f4f4;
 }
