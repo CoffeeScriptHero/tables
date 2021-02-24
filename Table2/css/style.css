@@ -1,0 +1,168 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: "Arimo", sans-serif;
+  text-transform: uppercase;
+}
+a {
+  text-decoration: none;
+}
+.table {
+  border-collapse: collapse;
+  border: 23px solid #3a4965;
+  margin: 20px;
+}
+.second_col,
+.fourth_col,
+.sixth_col {
+  background-color: #e3e3e3;
+}
+.third_col,
+.fifth_col,
+.seventh_col {
+  background-color: #f2f2f2;
+}
+.table_header_row {
+  border-top: 7px solid #3a4965;
+  border-bottom: 12px solid #3a4965;
+}
+.title_header_cell {
+  text-align: center;
+  padding: 32px 29px 34px 30px;
+}
+.thead_span {
+  font-size: 14px;
+  line-height: 28px;
+  font-weight: 700;
+}
+.thead_text {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 700;
+}
+.table_header_cell {
+  text-align: center;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 700;
+  color: #484848;
+  width: 160px;
+}
+.table_icon_first {
+  width: 24px;
+  height: 21px;
+  fill: #848484;
+  margin-bottom: 5px;
+}
+.table_icon_second {
+  width: 27px;
+  height: 19px;
+  fill: #848484;
+  margin-bottom: 5px;
+}
+.table_icon_third {
+  width: 24px;
+  height: 20px;
+  fill: #848484;
+  margin-bottom: 5px;
+}
+.table_icon_fourth {
+  width: 25px;
+  height: 25px;
+  fill: #848484;
+  margin-bottom: 5px;
+}
+.table_icon_fifth {
+  width: 23px;
+  height: 23px;
+  fill: #848484;
+  margin-bottom: 5px;
+}
+.table_icon_sixth {
+  width: 26px;
+  height: 25px;
+  fill: #848484;
+  margin-bottom: 5px;
+}
+.icon_box {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+}
+.table_cell {
+  text-align: center;
+  font-size: 16px;
+  line-height: 24px;
+  color: #484848;
+  font-weight: 400;
+  width: 160px;
+  padding-top: 65px;
+  padding-bottom: 65px;
+  border-bottom: 1px solid #d2d2d2;
+}
+.tariff_box {
+  position: relative;
+  margin: 22px 22px;
+}
+.tariff_title {
+  text-align: center;
+  color: #fff;
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.tariff_price {
+  display: inline-block;
+  margin-top: 8px;
+  margin-bottom: 17px;
+  font-size: 36px;
+  color: #fff;
+  line-height: 28px;
+  font-weight: 700;
+}
+.tariff_trifle {
+  position: absolute;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 700;
+  color: #fff;
+}
+.tariff_rate {
+  position: absolute;
+  bottom: 66px;
+  left: 70px;
+  font-size: 14px;
+  line-height: 28px;
+  font-weight: 700;
+  color: #fff;
+}
+.tariff_button {
+  text-align: center;
+  display: block;
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 700;
+  color: #fff;
+  border: 1px solid #414141;
+  background-color: #414141;
+  border-radius: 5px;
+  border-bottom: 5px solid #343434;
+  padding: 8px 21px 8px 19px;
+}
+.green_tariff_cell {
+  background-color: #89c331;
+}
+.red_tariff_cell {
+  background-color: #f04a56;
+}
+.aquamarine_tariff_cell {
+  background-color: #20807c;
+}
