@@ -243,3 +243,12 @@ body {
 .table-cell-button-red {
   background-color: #f4f4f4;
 }
+
+.another-table-link {
+  display: inline-block;
+  text-decoration: none;
+  color: violet;
+  padding: 40px 0 0 60px;
+  text-transform: none;
+  font-size: 30px;
+}
